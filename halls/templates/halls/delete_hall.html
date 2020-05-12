@@ -1,0 +1,18 @@
+{% extends "halls/base.html" %}
+{% block content %}
+<br>
+<div class="container">
+  <h2>「{{ hall.title }}」を削除しますか？</h2>
+  <form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-danger">削除</button>
+  </form>
+  <br>
+
+  {# <a href="{% url 'detail_hall' hall.id %}">{{ hall.title }}</a> #}
+
+</div>
+
+
+{% endblock %}
