@@ -26,7 +26,7 @@ SECRET_KEY = '5)pw03!v@g87ivf4#$zjhi05bast4a45=d0)f6kb-8hzdpk*^8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arcane-reef-18099.herokuapp.com']
 
 
 LOGIN_URL = 'login'
